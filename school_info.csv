@@ -1,0 +1,115 @@
+"unitid","institution name","year","DRVADM2016.Percent admitted - total","ADM2016.Secondary school GPA","ADM2016.Secondary school rank","DRVGR2016.Graduation rate, total cohort","DRVIC2016.Tuition and fees, 2016-17","EF2016D.Student-to-faculty ratio","ADM2016.SAT Critical Reading 25th percentile score","ADM2016.SAT Critical Reading 75th percentile score","ADM2016.SAT Math 25th percentile score","ADM2016.SAT Math 75th percentile score","ADM2016.ACT Composite 25th percentile score","ADM2016.ACT Composite 75th percentile score","ADM2016.ACT English 25th percentile score","ADM2016.ACT English 75th percentile score","ADM2016.ACT Math 25th percentile score","ADM2016.ACT Math 75th percentile score","SFA1516.Number of students in fall cohort","SFA1516.Number of students in fall cohort who are paying in-state tuititon rates","SFA1516.Number of students in fall cohort who are paying out-of-state tuition rates","SFA1516.Number of students in fall cohort whose residence/tuition rate is unknown"
+"102845","Charter College","2016",,,,"47","21887","20",,,,,,,,,,,"922",,,
+"234401","Beauty Academy","2016",,,,"50",,"6",,,,,,,,,,,,,,
+"234492","The Art Institute of Seattle","2016",,,,"27","17556","16",,,,,,,,,,,"177",,,
+"234650","Evergreen Beauty and Barber College-Bellevue","2016",,,,"77",,"20",,,,,,,,,,,,,,
+"234669","Bellevue College","2016",,,,"26","3624","15",,,,,,,,,,,"428","287","4","0"
+"234696","Bellingham Technical College","2016",,,,"42","3394","22",,,,,,,,,,,"41","40","0","0"
+"234711","Big Bend Community College","2016",,,,"37","3851","16",,,,,,,,,,,"298","33","20","0"
+"234827","Central Washington University","2016","80","Required","Neither required nor recommended","52","7719","18","480","580","480","570","18","24","16","23","17","24","1645","1528","117","0"
+"234845","Centralia College","2016",,,,"34","4188","15",,,,,,,,,,,"319","73","7","0"
+"234915","City University of Seattle","2016",,,,"24","16748","11",,,,,,,,,,,"0",,,
+"234924","Paul Mitchell the School-Richland","2016",,,,"67",,"14",,,,,,,,,,,,,,
+"234933","Clark College","2016",,,,"25","3498","13",,,,,,,,,,,"827","45","33","0"
+"234951","Clover Park Technical College","2016",,,,"36","5865","22",,,,,,,,,,,"254","254","0","0"
+"234979","Columbia Basin College","2016",,,,"27","4163","20",,,,,,,,,,,"734","159","13","0"
+"235024","Cornish College of the Arts","2016","60","Required","Neither required nor recommended","48","38820","8",,,,,,,,,,,"179",,,
+"235088","Divers Institute of Technology","2016",,,,"89",,"17",,,,,,,,,,,,,,
+"235097","Eastern Washington University","2016","95","Required","Neither required nor recommended","47","6951","21","420","540","430","540","17","23","15","22","16","24","1695","1550","145","0"
+"235103","Edmonds Community College","2016",,,,"28","3756","14",,,,,,,,,,,"361","265","13","0"
+"235149","Everett Community College","2016",,,,"38","3648","15",,,,,,,,,,,"717","95","1","0"
+"235158","Paroba College of Cosmetology","2016","81","Neither required nor recommended","Neither required nor recommended","78",,"14",,,,,,,,,,,,,,
+"235167","The Evergreen State College","2016","97","Required","Neither required nor recommended","56","7414","21","480","620","440","560","20","26","21","28","17","25","577","360","217","0"
+"235237","Pierce College-Fort Steilacoom","2016",,,,"20","3648","18",,,,,,,,,,,"369","101","2","0"
+"235307","Glen Dow Academy of Hair Design","2016",,,,"72",,"8",,,,,,,,,,,,,,
+"235316","Gonzaga University","2016","67","Required","Neither required nor recommended","84","39730","12","550","650","560","650","25","30","25","31","25","29","1335",,,
+"235334","Grays Harbor College","2016",,,,"37","3746","18",,,,,,,,,,,"235","19","11","0"
+"235343","Green River College","2016",,,,"36","4597","12",,,,,,,,,,,"613","187","15","0"
+"235352","Toni & Guy Hairdressing Academy-Shoreline","2016",,,,"76",,"10",,,,,,,,,,,,,,
+"235422","Heritage University","2016",,,,"17","19122","7",,,,,,,,,,,"103",,,
+"235431","Highline College","2016",,,,"33","3851","14",,,,,,,,,,,"428","150","13","0"
+"235501","International Air and Hospitality Academy","2016",,,,"84",,"5",,,,,,,,,,,,,,
+"235547","Bastyr University","2016",,,,,,"12",,,,,,,,,,,"0",,,
+"235583","Gene Juarez Academy of Beauty-Mountlake Terrace","2016",,,,"67",,"11",,,,,,,,,,,,,,
+"235671","Bates Technical College","2016",,,,"47","4601","17",,,,,,,,,,,"143","143","0","0"
+"235699","Lake Washington Institute of Technology","2016",,,,"28","4059","12",,,,,,,,,,,"126","126","0","0"
+"235750","Lower Columbia College","2016",,,,"38","4131","14",,,,,,,,,,,"210","17","17","0"
+"235954","BJ's Beauty & Barber College","2016",,,,"74",,"9",,,,,,,,,,,,,,
+"236018","BJ's Beauty & Barber College","2016",,,,"71",,"12",,,,,,,,,,,,,,
+"236072","North Seattle College","2016",,,,"25","3819","15",,,,,,,,,,,"128","41","3","0"
+"236133","Northwest University","2016","93","Required","Neither required nor recommended","56","29200","9","480","597","462","577","20","26","20","27","18","26","203",,,
+"236188","Olympic College","2016",,,,"27","3618","18",,,,,,,,,,,"381","27","7","0"
+"236212","Perry Technical Institute","2016",,,,"81",,"16",,,,,,,,,,,,,,
+"236230","Pacific Lutheran University","2016","77","Required","Considered but not required","71","39450","11","490","610","490","620","22","28","21","28","22","27","642",,,
+"236258","Peninsula College","2016",,,,"29","4344","13",,,,,,,,,,,"177","9","27","0"
+"236328","University of Puget Sound","2016","79","Required","Neither required nor recommended","80","46552","11",,,,,,,,,,,"652",,,
+"236382","Renton Technical College","2016",,,,"61","4836","15",,,,,,,,,,,"122","122","0","0"
+"236452","Saint Martin's University","2016","95","Required","Required","55","34356","12","445","570","450","580","20","25",,,,,"179",,,
+"236504","South Seattle College","2016",,,,"39","3854","15",,,,,,,,,,,"186","80","0","0"
+"236513","Seattle Central College","2016",,,,"23","3925","14",,,,,,,,,,,"199","74","6","0"
+"236577","Seattle Pacific University","2016","87","Required","Neither required nor recommended","71","38940","14","500","620","490","610","21","27","20","26","21","28","688",,,
+"236595","Seattle University","2016","74","Required","Recommended","75","41265","12","540","640","530","650","25","30","24","31","24","28","992",,,
+"236610","Shoreline Community College","2016",,,,"42","3735","13",,,,,,,,,,,"290","224","3","0"
+"236638","Skagit Valley College","2016",,,,"19","4200","15",,,,,,,,,,,"427","97","5","0"
+"236656","South Puget Sound Community College","2016",,,,"34","4104","16",,,,,,,,,,,"417","61","2","0"
+"236692","Spokane Community College","2016",,,,"25","3393","17",,,,,,,,,,,"1054","46","34","2"
+"236708","Spokane Falls Community College","2016",,,,"23","3393","18",,,,,,,,,,,"1253","87","52","4"
+"236744","Stylemaster College of Hair Design","2016",,,,"84",,"26",,,,,,,,,,,,,,
+"236753","Tacoma Community College","2016",,,,"27","3686","18",,,,,,,,,,,"1043","523","8","1"
+"236887","Walla Walla Community College","2016",,,,"40","4203","17",,,,,,,,,,,"401","74","78","0"
+"236896","Walla Walla University","2016","62","Required","Recommended","54","26982","15","460","600","460","610","20","27","19","27","18","26","359",,,
+"236939","Washington State University","2016","72","Required","Neither required nor recommended","67","11041","15","460","580","470","585","20","26","19","25","19","26","4625","3764","861","0"
+"236948","University of Washington-Seattle Campus","2016","45","Required","Neither required nor recommended","84","10753","17","540","660","580","710","26","32","24","33","26","32","6735","4257","2478","0"
+"236975","Wenatchee Valley College","2016",,,,"34","3678","16",,,,,,,,,,,"403","49","15","0"
+"237011","Western Washington University","2016","83","Required","Recommended","69","7903","19","500","620","490","600","23","28","22","28","22","27","2783","2383","400","0"
+"237039","Whatcom Community College","2016",,,,"37","4316","13",,,,,,,,,,,"300","74","4","0"
+"237057","Whitman College","2016","51","Required","Recommended","88","47862","8","600","720","600","700","28","32",,,,,"364",,,
+"237066","Whitworth University","2016","89","Required","Recommended","73","40562","12","500","640","500","620","22","29","21","30","22","28","583",,,
+"237109","Yakima Valley College","2016",,,,"25","4230","17",,,,,,,,,,,"290","21","11","0"
+"245883","Antioch University-Seattle","2016",,,,"13",,"3",,,,,,,,,,,"0",,,
+"363590","Everest College-Everett","2016",,,,"70","11274","24",,,,,,,,,,,"44",,,
+"368629","Pima Medical Institute-Seattle","2016",,,,"78",,"25",,,,,,,,,,,,,,
+"377546","Northwest College of Art & Design","2016",,,,"63","19075","22",,,,,,,,,,,"29",,,
+"377555","University of Washington-Bothell Campus","2016","80","Required","Neither required nor recommended","67","10690","19","440","570","470","600","20","25","17","24","19","27","677","649","28","0"
+"377564","University of Washington-Tacoma Campus","2016","84","Required","Neither required nor recommended","60","10831","16","430","550","430","550","17","23","15","22","17","23","448","434","14","0"
+"380377","Northwest Indian College","2016",,,,"23","4407","9",,,,,,,,,,,"81","81","0","0"
+"381529","Seattle Vocational Institute","2016",,,,"62","4150","12",,,,,,,,,,,"33","26","0","7"
+"387660","Emil Fries Piano Hospital and Training Center","2016",,,,,"15000",,,,,,,,,,,,"1",,,
+"407708","Gene Juarez Academy of Beauty-Federal Way","2016",,,,"63",,"14",,,,,,,,,,,,,,
+"413343","Professional Beauty School","2016",,,,"93",,"9",,,,,,,,,,,,,,
+"419411","Cortiva Institute-Seattle","2016",,,,"92",,"15",,,,,,,,,,,,,,
+"432223","University of Phoenix-Washington","2016",,,,"14","9840","16",,,,,,,,,,,"0",,,
+"434362","Northwest HVAC/R Training Center","2016",,,,"76",,"20",,,,,,,,,,,,,,
+"439057","Argosy University-Seattle","2016",,,,"100",,"5",,,,,,,,,,,"0",,,
+"439118","Carrington College-Spokane","2016","76","Neither required nor recommended","Neither required nor recommended","69",,"31",,,,,,,,,,,,,,
+"439145","Pierce College-Puyallup","2016",,,,"29","3696","15",,,,,,,,,,,"249","48","0","0"
+"439190","Cascadia College","2016",,,,"31","3753","16",,,,,,,,,,,"247","101","0","0"
+"439914","Seattle Institute of Oriental Medicine","2016",,,,,,,,,,,,,,,,,,,,
+"441131","The Seattle School of Theology & Psychology","2016",,,,,,,,,,,,,,,,,,,,
+"443049","Faith International University","2016",,,,"80","7840","15",,,,,,,,,,,"7",,,
+"443410","DigiPen Institute of Technology","2016","53","Required","Recommended","40","29000","10","550","660","540","680","26","31","25","32","25","31","194",,,
+"444024","Everest College-Tacoma","2016",,,,"64","11274","24",,,,,,,,,,,"65",,,
+"446260","Evergreen Beauty and Barber College-Everett","2016",,,,"80",,"20",,,,,,,,,,,,,,
+"446808","Sanford-Brown College-Seattle","2016",,,,"27",,"6",,,,,,,,,,,"0",,,
+"449074","Pima Medical Institute-Renton","2016",,,,"74",,"25",,,,,,,,,,,,,,
+"451626","Victoria's Academy of Cosmetology","2016",,,,"96",,"13",,,,,,,,,,,,,,
+"451635","Inland Massage Institute","2016",,,,"83","9375","10",,,,,,,,,,,"16",,,
+"451644","Sunnyside Beauty Academy","2016",,,,"93",,"20",,,,,,,,,,,,,,
+"452045","Le Cordon Bleu College of Culinary Arts-Seattle","2016",,,,"53",,"20",,,,,,,,,,,"65",,,
+"455406","Pacific Northwest University of Health Sciences","2016",,,,,,,,,,,,,,,,,,,,
+"458131","Gary Manuel Aveda Institute","2016",,,,"75",,"14",,,,,,,,,,,,,,
+"458140","Northwest School of Wooden Boat Building","2016",,,,"77","14550","7",,,,,,,,,,,"13",,,
+"458159","Pinchot University","2016",,,,,,,,,,,,,,,,,,,,
+"459550","Summit Salon Academy","2016",,,,"78",,"12",,,,,,,,,,,,,,
+"462071","Paul Mitchell The School-Spokane","2016",,,,"59",,"15",,,,,,,,,,,,,,
+"475200","Whitworth University-Adult Degree Programs","2016",,,,,,"13",,,,,,,,,,,"0",,,
+"479053","Cortiva Institute-Seattle","2016",,,,"74",,"15",,,,,,,,,,,,,,
+"482185","Academy of Interactive Entertainment","2016","73","Neither required nor recommended","Neither required nor recommended","74","17500","24",,,,,,,,,,,"40",,,
+"484826","Tint School of Makeup & Cosmetology-Seattle","2016",,,,,,"12",,,,,,,,,,,,,,
+"485476","Studio Beauty School","2016",,,,,,"10",,,,,,,,,,,,,,
+"487348","Aveda Institute Portland-Vancouver Campus","2016",,,,"60",,"10",,,,,,,,,,,,,,
+"487603","Northwest University-College of Adult and Professional Studies","2016",,,,,"12075","23",,,,,,,,,,,"75",,,
+"488271","Fosbre Academy of Hair Design","2016","100","Neither required nor recommended","Neither required nor recommended","91",,"12",,,,,,,,,,,,,,
+"488378","International Beauty Education Center","2016",,,,"56",,"20",,,,,,,,,,,,,,
+"488448","Seattle Film Institute","2016",,,,"100","30240","7",,,,,,,,,,,"10",,,
+"489849","The Beauty Institute Schwarzkopf Professional-Bellingham","2016",,,,,,,,,,,,,,,,,,,,
