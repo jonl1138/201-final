@@ -1,7 +1,8 @@
 
 library("dplyr")
 
-setwd("~/../Desktop/EECS/201-final")
+## Set to file folder
+## setwd()
 
 major_data <- read.csv("major_counts.csv", stringsAsFactors = FALSE)
 various_data <- read.csv("school_info.csv", stringsAsFactors = FALSE)
