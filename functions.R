@@ -1,12 +1,11 @@
-
 library("dplyr")
 
 ## Set to file folder
 ## setwd()
 
-major_data <- read.csv("major_counts.csv", stringsAsFactors = FALSE)
-various_data <- read.csv("school_info.csv", stringsAsFactors = FALSE)
-age_data <- read.csv("school_ages.csv", stringsAsFactors = FALSE)
+major_data <- read.csv("Data/major_counts.csv", stringsAsFactors = FALSE)
+various_data <- read.csv("Data/school_info.csv", stringsAsFactors = FALSE)
+age_data <- read.csv("Data/school_ages.csv", stringsAsFactors = FALSE)
 
 ## takes in an inputted school and returns a data frame with the left column being the name of the institution, 
 ## the center column being the majors available at the school, and the right column being its frequency
@@ -34,8 +33,6 @@ quantityFinder <- function(category.name) {
   return(filtered)
 }
 
-## y <- quantityFinder("EF2016D.Student.to.faculty.ratio")
-
 ## takes in the school name, the level of student (Undergrad, Grad, or Both) and returns a data frame of the results,
 ## with the left column representing the institution name, the next column representing the age ranges, and the right
 ## column representing the related counts of students within that age bracket
@@ -47,6 +44,3 @@ ageFinder <- function(school.name,student.level) {
     distinct()
   return(filtered)
 }
-
-## z <- ageFinder("Bellevue College", "Undergraduate")
-
