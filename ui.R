@@ -1,31 +1,30 @@
 library(shiny)
 library(ggplot2)
+library(DT)
 
-major <- read.table(file = 'Data/major_counts.csv', header = TRUE, sep = ",")
-dataset <- read.table(file = 'Data/school_ages.csv', header = TRUE, sep = ",")
-school_info <- read.table(file = 'Data/school_info.csv', header = TRUE, sep = ",")
+source("graphs.R")
+source("functions.R")
 
 fluidPage(
   
   titlePanel("Washington Colleges"),
+  p("An interactive app that compares college stats. Data pulled from: https://nces.ed.gov/ipeds/use-the-data"),
+  p("GitHub: https://github.com/jonl1138/201-final"),
   
   sidebarPanel(
-    
-    sliderInput('sampleSize', 'Sample Size', min=1, max=nrow(dataset),
-                value=min(1000, nrow(dataset)), step=500, round=0),
-    
-    selectInput('x', 'X', names(dataset), names(dataset)[[6]]),
-    selectInput('y', 'Y', names(dataset), names(dataset)[[2]]),
-    selectInput('color', 'Color', c('None', names(dataset))),
-    
-    checkboxInput('jitter', 'Jitter'),
-    checkboxInput('smooth', 'Smooth'),
-    
-    selectInput('facet_row', 'Facet Row', c(None='.', names(dataset))),
-    selectInput('facet_col', 'Facet Column', c(None='.', names(dataset)))
+    selectInput('college', 'College', unique(major_data$institution.name)),
+    selectInput('category', 'Category', names(various_data)[4:length(various_data)]),
+    selectInput('level', 'Level', age_data$EF2016B.Level.of.student)
   ),
   
   mainPanel(
-    plotOutput('plot')
+    tabsetPanel(
+      tabPanel("Major Plot", plotOutput("majorplot")), 
+      tabPanel("Quantity Plot", plotOutput("quantityplot")), 
+      tabPanel("Age Plot", plotOutput("ageplot")), 
+      tabPanel("Major Table", DT::dataTableOutput("majortable")),
+      tabPanel("Quantity Table", DT::dataTableOutput("quantitytable")),
+      tabPanel("Age Table", DT::dataTableOutput("agetable"))
+    )
   )
 )
