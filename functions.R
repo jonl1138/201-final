@@ -1,8 +1,11 @@
+
 library("dplyr")
 
-major_data <- read.csv("major_counts.csv")
-various_data <- read.csv("school_info.csv")
-age_data <- read.csv("school_ages.csv")
+setwd("~/../Desktop/EECS/201-final")
+
+major_data <- read.csv("major_counts.csv", stringsAsFactors = FALSE)
+various_data <- read.csv("school_info.csv", stringsAsFactors = FALSE)
+age_data <- read.csv("school_ages.csv", stringsAsFactors = FALSE)
 
 ## takes in an inputted school and returns a data frame with the left column being the name of the institution, 
 ## the center column being the majors available at the school, and the right column being its frequency
@@ -10,6 +13,8 @@ age_data <- read.csv("school_ages.csv")
 majorCounter <- function(school.name) {
   filtered <- filter(major_data,institution.name == school.name) %>%
     filter(grepl("All students total", EF2016CP.Major.field.of.study)) %>%
+    mutate(cutoff = regexpr(",", EF2016CP.Major.field.of.study)) %>% 
+    mutate(EF2016CP.Major.field.of.study = substr(EF2016CP.Major.field.of.study, 9, (cutoff - 1))) %>%
     select(institution.name,EF2016CP.Major.field.of.study,EF2016CP.Grand.total)
   colnames(filtered) <- c("Institution Name", "Major", "Count")
   return(filtered)
@@ -43,3 +48,4 @@ ageFinder <- function(school.name,student.level) {
 }
 
 ## z <- ageFinder("Bellevue College", "Undergraduate")
+
