@@ -1,7 +1,6 @@
 library("ggplot2")
 source("functions.R")
 
-
 ## MAJOR FREQUENCY GRAPH
 ## takes school name and returns a bar graph with the number of students in that major on the x-axis, and the 
 ## name of the major along the y-axis 
