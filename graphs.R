@@ -13,8 +13,8 @@ majorFrequency <- function(school.name) {
   return(final.plot)
 }
 
-m <- majorFrequency("Eastern Washington University")
-print(m)
+#m <- majorFrequency("Eastern Washington University")
+#print(m)
 
 
 quantityFrequency <- function (category) {

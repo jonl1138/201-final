@@ -9,28 +9,27 @@ function(input, output) {
   majortable <- reactive({majorCounter(input$college)})
   quantitytable <- reactive({quantityFinder(input$category)})
   
+  #Plots
   output$majorplot <- renderPlot({
-    
     p <- majorFrequency(input$college)
     
     print(p)
     
   }, height = 700)
   output$quantityplot <- renderPlot({
-    
     p <- quantityFrequency(input$category)
     
     print(p)
     
   }, height = 700)
   output$ageplot <- renderPlot({
-    
     p <- agePlot(input$college, input$level)
     
     print(p)
     
   }, height = 700)
   
+  #Tables
   output$majortable <- renderDataTable(
     majortable()
   )
